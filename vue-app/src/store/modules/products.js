@@ -1,6 +1,6 @@
 import axios from 'axios';
 import API from '../config';
-import { parseItem, parseList } from './action-utils';
+import { parseItem, parseList } from '../../../../vueapp/src/stores/utils';
 import {
   ADD_PRODUCT,
   DELETE_PRODUCT,
