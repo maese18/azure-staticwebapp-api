@@ -89,6 +89,7 @@ export default {
 
 <template>
   <div class="content-container">
+    THis is the list of products
     <ListHeader
       :title="title"
       @refresh="getProducts"
